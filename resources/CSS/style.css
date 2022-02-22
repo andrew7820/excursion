@@ -9,7 +9,7 @@
     
 }
 
-.Intro p{
+.Intro p, .bottom p{
     color: aquamarine;
     text-align: center;
     font-size: 16px;
@@ -20,8 +20,38 @@
     text-align: center;
 }
 
-img[src^="camp.jpg"]{
+.description img{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    height;:50%;
+    height:50%;
+} 
+
+.bottom img{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    height:50%;
+} 
+
+.bottom h2, .description h1{
+    font-weight: 300;
+    font-size: 42px;
+    font-family: verdana;
+    color: white;
+    text-align: center;
+    
+}
+
+.description p{
+    color: gray;
+    font-size:21px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+footer p{
+    text-align: right;
+    color: gray;
 }
